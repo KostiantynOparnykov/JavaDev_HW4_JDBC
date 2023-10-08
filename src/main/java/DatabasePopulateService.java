@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabasePopulateService {
-    public static final String SQL_FILE = "src/main/resources/sql_postgres/populate_db.sql";
+    public static final String SQL_FILE = "src/sql/populate_db.sql";
 
     public static void main(String[] args) {
         String sqlUpdate = new SqlReader().read(SQL_FILE);

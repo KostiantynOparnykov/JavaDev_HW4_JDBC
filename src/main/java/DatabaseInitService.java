@@ -6,7 +6,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DatabaseInitService {
-    public static final String SQL_FILE = "src/main/resources/sql_postgres/init_db.sql";
+    public static final String SQL_FILE = "src/sql/init_db.sql";
 
     public static void main(String[] args) {
         String sqlUpdate = new SqlReader().read(SQL_FILE);

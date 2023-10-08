@@ -10,11 +10,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DatabaseQueryService {
-    public static final String FIND_MAX_SALARY_WORKER_QUERY = "src/main/resources/sql_postgres/find_max_salary_worker.sql";
-    public static final String FIND_MAX_PROJECT_CLIENT_QUERY = "src/main/resources/sql_postgres/find_max_projects_client.sql";
-    public static final String FIND_LONGEST_PROJECT_QUERY = "src/main/resources/sql_postgres/find_longest_project.sql";
-    public static final String FIND_YOUNGEST_ELDEST_WORKER_QUERY = "src/main/resources/sql_postgres/find_youngest_eldest_workers.sql";
-    public static final String PRINT_PROJECT_PRICES_QUERY = "src/main/resources/sql_postgres/print_project_prices.sql";
+    public static final String FIND_MAX_SALARY_WORKER_QUERY = "src/sql/find_max_salary_worker.sql";
+    public static final String FIND_MAX_PROJECT_CLIENT_QUERY = "src/sql/find_max_projects_client.sql";
+    public static final String FIND_LONGEST_PROJECT_QUERY = "src/sql/find_longest_project.sql";
+    public static final String FIND_YOUNGEST_ELDEST_WORKER_QUERY = "src/sql/find_youngest_eldest_workers.sql";
+    public static final String PRINT_PROJECT_PRICES_QUERY = "src/sql/print_project_prices.sql";
     Connection connection;
 
     public DatabaseQueryService() {
